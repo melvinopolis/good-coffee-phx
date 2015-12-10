@@ -1,0 +1,82 @@
+/* COLORS 
+light blue #a2ded0
+red #d64541
+black #323232
+white #f7fafe
+*/
+
+body {
+	background-color: #a2ded0;
+}
+
+.jumbotron {
+	background-image: url('img/coffee-header.jpg');
+	padding: 20%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	background-attachment: fixed;
+	margin-top: -40px;
+	background-position: center -238px;
+}
+
+.jumbotron h1 {
+	color: #f7fafe;
+	position: absolute;
+	top: 22%;
+	left: 20px;
+	font-weight: lighter;
+}
+
+.mission {
+	background-color: #323232;
+	color: #f7fafe;
+	margin-top: -30px;
+}
+
+.mission h3 {
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	font-weight: normal;
+	padding: 5%;
+	line-height: 1.5em;
+}
+
+.features {
+	padding: 5% 0;
+}
+
+.features p {
+	font-family: 'Muli' sans-serif;
+	text-align: center;
+	color: #323232;
+	font-size: 1.2em;
+	padding-top: 10px;
+}
+
+footer {
+	background-color: #d64541;
+	position: absolute;
+	width: 100%;
+}
+
+footer li {
+	display: inline-block;
+	list-style: none;
+	padding: 2%;
+	float: right;
+}
+
+footer p {
+	float: left;
+	padding: 2%;
+}
+
+footer a, footer p, footer a:hover {
+	color: #f7fafe;
+}
+
+
+
+
+
